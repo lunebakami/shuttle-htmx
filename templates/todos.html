@@ -8,9 +8,7 @@
       </tr>
     </thead>
     <tbody id="todos-content">
-      {% for todo in todos %}
-        {% include "todo.html" %} 
-      {% endfor %}
+      {% for todo in todos %} {% include "todo.html" %} {% endfor %}
     </tbody>
   </table>
 </div>
